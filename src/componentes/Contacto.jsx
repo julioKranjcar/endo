@@ -3,13 +3,13 @@ export const Contacto = () => {
         <div className="card col-md-12 mb-4" >
             <div className="card-header">Contactanos</div>
             <div className="card-body">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Ingresa tu correo</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+                <div className="mb-3">
+                    <label htmlFor="exampleFormControlInput1" className="form-label">Ingresa tu correo</label>
+                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
                 </div>
-                    <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Escribenos tu mensaje</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <div className="mb-3">
+                    <label htmlFor="exampleFormControlTextarea1" className="form-label">Escribenos tu mensaje</label>
+                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <button type="submit" className="btn btn-primary">
                     Enviar correo
