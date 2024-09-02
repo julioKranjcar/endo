@@ -1,6 +1,6 @@
 export const Contacto = () => {
     return (
-        <div className="card col-md-12 mb-4 animate__animated animate__fadeInUp" >
+        <div className="card col-md-12 mb-4 animate__animated animate__fadeIn" >
             <div className="card-header fw-bold">Contactanos</div>
             <div className="card-body">
                 <div className="mb-3">

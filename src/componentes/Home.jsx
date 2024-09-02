@@ -1,28 +1,35 @@
+import { height } from "@fortawesome/free-brands-svg-icons/fa42Group";
+
 const endoscopias = [
     {
         id: 1,
         nombre: 'Endoscopica',
-        img: '../public/img/urologia.jpg',
+        img: '/img/endoscopia.png',
         descripcion: 'Se adapta una sonda de ultrasonido al endoscopio y se utiliza principalmente para las capas de la mucosa del tubo digestivo, así como para toma de biopsias de hígado y páncreas.',
     },
     {
         id: 2,
         nombre: 'De tubo digestivo alto',
-        img: '../public/img/urologia.jpg',
+        img: '/img/endoscopia2.jpg',
         descripcion: 'Se utiliza para el estudio del tubo digestivo superior; esófago, estómago e intestino delgado.',
     },
     {
         id: 3,
         nombre: 'Endoscopía o colonoscopía de tubo digestivo',
-        img: '../public/img/urologia.jpg',
+        img: '/img/endoscopia3.jpg',
         descripcion: 'Se emplea para examinar internamente el colón (intestino grueso) y el recto.',
     },
 ];
 
+const imgStyle = {
+    height: '10rem',
+    with: '100%',
+}
+
 export const Home = () => {
     return (
         <>
-            <div className="card mb-4">
+            <div className="card mb-4 animate__animated animate__fadeIn">
                 <div className="card-header fw-bold">
                     Acerca de nosotros
                 </div>
@@ -47,7 +54,7 @@ export const Home = () => {
                                 <div className="card" >
                                     <div className="card-body d-flex">
                                         <div className="col-4">
-                                            <img src={item.img} className="rounded" width={'100%;' } />
+                                            <img src={item.img} className="rounded img-thumbnail" style={imgStyle} />
                                         </div>
                                         <div className="col-8 px-3">
                                             <h4 className="text-primary">{item.nombre}</h4>

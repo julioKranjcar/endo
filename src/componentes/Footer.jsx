@@ -18,7 +18,7 @@ export const Footer = () => {
                 </div>
                 <div className="col-md-6 col-lg-4 mb-4">
                     <span className='fw-bold'><FontAwesomeIcon icon={faLocationDot} /> Ubicación</span> <br />
-                    <span>Calle Morera #421 Querétaro / Cádiz #200 B. Juárez, CDMX</span>
+                    <span>Calle Morera #421 Querétaro <br /> Cádiz #200 B. Juárez, CDMX</span>
                 </div>
                 <div className="col-md-6 col-lg-3 mb-4">
                     <span className='fw-bold'><FontAwesomeIcon icon={faClock} /> Horario de atención</span> <br />

@@ -5,7 +5,7 @@ export const NavBar = () => {
         <>
             <nav className="navbar sticky-top navbar-expand-lg bg-primary" data-bs-theme="dark">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" href="/">
                         <img className="img-fluid" src="/logo.png" width='35 px;'></img>
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
