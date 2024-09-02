@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export const NavBar = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <nav className="navbar sticky-top navbar-expand-lg bg-primary" data-bs-theme="dark">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
                         <img className="img-fluid" src="/logo.png" width='35 px;'></img>
@@ -14,7 +14,7 @@ export const NavBar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <NavLink className={'nav-link'} to={'/'} >Home</NavLink>
+                                <NavLink className={'nav-link'} to={'/'} >Inicio</NavLink>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -24,6 +24,9 @@ export const NavBar = () => {
                                     <li><NavLink className={'dropdown-item'} to={'/Servicios/1'} >Endoscopía</NavLink></li>
                                     <li><NavLink className={'dropdown-item'} to={'/Servicios/2'} >Urología</NavLink></li>
                                 </ul>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink className={'nav-link'} to={'/Dispositivos'} >Dispositivos</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className={'nav-link'} to={'/Contacto'} >Contacto</NavLink>

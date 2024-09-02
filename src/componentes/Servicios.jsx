@@ -17,14 +17,15 @@ const data = [
 
 export const Servicios = () => {
     const { id } = useParams();
-    const servicio = data.filter((i) => (i.id == id) );
+
+    const servicio = id != undefined ? data.filter((i) => (i.id == id) ) : data;
     
     return (
         <div className="row my-4">
             { servicio.map( (item) => (
-                <div key={item.id} className="col-sm-12 col-md-6 col-lg-4">
+                <div key={item.id} className="col-sm-12 col-md-6 col-lg-4 animate__animated animate__fadeInUp">
                     <div  className="card m-2" >
-                        <img src={item.img} className="card-img-top" alt="..." />
+                        <img src={item.img} className="card-img-top" height={'200rem;'} alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">{item.nombre}</h5>
                             <p className="card-text">{item.descripcion}</p>
