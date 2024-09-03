@@ -1,3 +1,5 @@
+//import { defineConfig } from 'vite';
+
 export const servicios = [
     {
         id: 1,
