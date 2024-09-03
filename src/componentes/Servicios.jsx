@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { getServicios } from '../services/serviciosService';
 import { useEffect, useState } from "react";
-import { CardServicio } from "./servicios/cardServicio";
+import { CardServicio } from "./servicios/CardServicio";
 
 export const Servicios = () => {
     const { id } = useParams();
