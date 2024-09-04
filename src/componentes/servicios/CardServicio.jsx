@@ -20,8 +20,8 @@ export const CardServicio = ({id, nombre, descripcion, articulos}) => {
 
     return (
         <>
-            <div  className="col-sm-12 col-md-12 col-lg-12 animate__animated animate__fadeIn">
-                <div  className="card m-2" >
+            <div  className="col-sm-12 col-md-12 col-lg-12  animate__animated animate__fadeIn">
+                <div  className="card m-2 shadow-lg" >
                     <div className="card-header fw-bold">{nombre}</div>
                     <div className="card-body">
                         <div className="col-md-12 p-0 mb-4">

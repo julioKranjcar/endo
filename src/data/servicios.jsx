@@ -124,7 +124,7 @@ export const servicios = [
                     },
                      
                 ],
-                disponible: '',
+                disponible: 'Venta exclusiva en CDMX y Michoacán',
                 img: '/img/urologia/1.jpg',
             },
             {
@@ -146,7 +146,7 @@ export const servicios = [
                     },
                      
                 ],
-                disponible: '',
+                disponible: 'Venta exclusiva en CDMX y Michoacán',
                 img: '/img/urologia/2.jpg',
             },
             {
@@ -172,7 +172,7 @@ export const servicios = [
                     },
                      
                 ],
-                disponible: '',
+                disponible: 'Venta exclusiva en CDMX y Michoacán',
                 img: '/img/urologia/3.jpg',
             },
             {

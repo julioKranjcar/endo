@@ -29,7 +29,7 @@ const imgStyle = {
 export const Home = () => {
     return (
         <>
-            <div className="card mb-4 animate__animated animate__fadeIn">
+            <div className="card mb-4 shadow-lg animate__animated animate__fadeIn">
                 <div className="card-header fw-bold">
                     Acerca de nosotros
                 </div>
@@ -51,7 +51,7 @@ export const Home = () => {
                     <div className="row mt-4">
                         { endoscopias.map((item) => (
                             <div key={item.id} className="col-sm-12 col-md-6 col-lg-6 mb-4 animate__animated animate__fadeInUp" >
-                                <div className="card" >
+                                <div className="card shadow-lg" >
                                     <div className="card-body d-flex">
                                         <div className="col-4">
                                             <img src={item.img} className="rounded img-thumbnail" style={imgStyle} />

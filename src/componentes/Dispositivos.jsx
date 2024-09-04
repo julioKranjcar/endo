@@ -66,7 +66,7 @@ export const Dispositivos = () => {
                     </form>
                 </div>
                 { dispositivos.map((item) => (
-                    <div key={item.id} className="card p-0 mb-4 col-sm-12 col-md-12 animate__animated animate__fadeInUp" >
+                    <div key={item.id} className="card p-0 mb-4 col-sm-12 col-md-12 shadow-lg animate__animated animate__fadeInUp" >
                         <div className="row g-0">
                             <div className="col-md-3 col-lg-2">
                                 <img src={item.img} className="img-fluid rounded-start" style={styleImg} alt="..." />
